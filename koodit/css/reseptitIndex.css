@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.recipe {
+    width: 300px;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe:hover {
+    transform: scale(1.05);
+}
+
+.recipe h2 {
+    color: #555;
+}
+
+.recipe p {
+    color: #777;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 12px;
+    background-color: #888;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#recipeIMG {
+    width: 290px;
+    display: block;
+    margin: auto;
+}
